@@ -1,0 +1,10 @@
+$('#industries').hover(function(){
+    this.children[1].classList.add('revealnav');
+},function(){
+    this.children[1].classList.remove('revealnav');
+})
+$('#expertise').hover(function(){
+    this.children[1].classList.add('revealnav');
+},function(){
+    this.children[1].classList.remove('revealnav');
+})
